@@ -1,0 +1,67 @@
+# Environments
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Node / React (UI)
+ui/node_modules/
+ui/dist/
+ui/build/
+ui/.env.local
+ui/.env.development.local
+ui/.env.test.local
+ui/.env.production.local
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Tauri / Rust
+ui/src-tauri/target/
+ui/src-tauri/gen/
+**/*.rs.bk
+
+# OS Files
+.DS_Store
+Thumbs.db
+*.swp
+*.bak
+
+# Project Specific
+log.txt
+*.spec
+*.exe
+*.dll
+*.log
+*.onnx
+*.bin
+
+# AI Models & Weights
+*.pt
+*.pth
+*.safetensors
+models/
